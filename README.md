@@ -81,3 +81,7 @@ min-max normalization was applied to the ECG signals to ensure consistent amplit
 Using PyQt and Qt Designer
 
 [GUI Code](GUI/)
+
+## Training
+
+Using colab T4 GPU.
