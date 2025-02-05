@@ -22,7 +22,7 @@ It contains 48 ECG recordings from 47 patients, each lasting 30 minutes.
 **Leads**: Mostly MLII and V5, with variations in some records.
 
 link:https://physionet.org/content/mitdb/1.0.0/
-## data processing
+## data processing(denoise + heartbeat segmentation)
 Discrete Wavelet Transform (DWT) was used for ECG signal denoising.
 
 ### Wavelet Decomposition:
