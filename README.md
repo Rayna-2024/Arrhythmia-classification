@@ -80,4 +80,5 @@ min-max normalization was applied to the ECG signals to ensure consistent amplit
 ## Graphical User Interface, GUI
 Using PyQt and Qt Designer
 
-link:
+[查看 images 目录](PyQt-interactive-interface/)
+[查看 images 目录](images/)
