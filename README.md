@@ -75,5 +75,9 @@ min-max normalization was applied to the ECG signals to ensure consistent amplit
 **SE-CNN-BiLSTM** efficiently classifies arrhythmias by leveraging CNN for spatial feature extraction, BiLSTM for temporal sequence learning, and SE attention for feature enhancement.
 
 ### confusion matrix
-<img src="matrix.png" alt="confusion matrix" width="600">
+<img src="matrix.png" alt="confusion matrix" width="400">
 
+## Graphical User Interface, GUI
+Using PyQt and Qt Designer
+
+link:
