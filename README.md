@@ -54,7 +54,7 @@ The left image shows the original signal, while the right image shows the denois
 2. Specifically, **100 samples before** the R-peak and **200 samples after** the R-peak were extracted.
 This ensures that key features of each heartbeat, such as **P-wave, QRS, and T-wave**, are captured.
 
-<img src="single heartbeat.png" alt="示例图片" width="600">
+<img src="single heartbeat.png" alt="singel heartbeat" width="600">
 
 ### Train dataset and Test dataset
 
@@ -75,6 +75,5 @@ min-max normalization was applied to the ECG signals to ensure consistent amplit
 **SE-CNN-BiLSTM** efficiently classifies arrhythmias by leveraging CNN for spatial feature extraction, BiLSTM for temporal sequence learning, and SE attention for feature enhancement.
 
 ### confusion matrix
-![image](https://github.com/user-attachments/assets/1bfac298-aa61-41e5-be26-aa0b7aaef553)
-<img src="single heartbeat.png" alt="示例图片" width="300">
+<img src="matrix.png" alt="confusion matrix" width="600">
 
