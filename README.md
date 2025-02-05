@@ -47,3 +47,25 @@ The left image shows the original signal, while the right image shows the denois
 
 ![image](https://github.com/user-attachments/assets/a553d0a2-ed35-4437-94a6-f7e1c649c705)
 
+### heartbeat segmentation
+
+1. Identifying R-Peaks:
+   The R-peaks of each heartbeat were extracted using the **expert annotations** in the dataset.
+2. Specifically, **100 samples before** the R-peak and **200 samples after** the R-peak were extracted.
+This ensures that key features of each heartbeat, such as **P-wave, QRS, and T-wave**, are captured.
+
+### Train dataset and Test dataset
+
+The dataset consists of five heartbeat types: N, A, V, L, and R.
+
+2,500 beats per category were selected, with:
+2,000 beats for training
+500 beats for testing
+This results in a total of 12,500 heartbeats in the dataset.
+
+### min-max normalization
+
+min-max normalization was applied to the ECG signals to ensure consistent amplitude across different heartbeats.
+
+![image](https://github.com/user-attachments/assets/f18725ac-c016-4894-9bac-6020977ce400)
+
